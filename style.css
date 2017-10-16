@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background-color: rgb(100, 100, 100);
+  min-height: 100vh;
+  font-size: 1.25em;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(50, 50, 50)
+}
+
+main {
+  padding-top: 2em;
+  flex-grow: 1;
+}
+
+form {
+  text-align: center;
+}
+
+form button {
+  font-size: 1.5em;
+  padding: 0.3em;
+  background-color: rgb(50, 50, 50);
+  color: rgb(64, 224, 208);
+  border: 1px solid black;
+}
+
+.search {
+  width: 40%;
+  padding: 0.3em;
+  font-size: 1.5em;
+  text-align: center;
+  border: 1px solid black;
+  color: rgb(50, 50, 50);
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: rgb(64, 224, 208);
+  font-size: 3em;
+  text-shadow: 0.1em 0.1em black;
+}
+
+footer {
+  background-color: rgb(20, 20, 20);
+  min-height: 5em;
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+}
+
+#results h2 {
+  text-align: center;
+}
